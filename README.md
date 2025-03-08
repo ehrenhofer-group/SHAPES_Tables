@@ -34,4 +34,5 @@ The current work is published under the license Creative Commons Attribution 4.0
 We are looking forward to improve this living document by including visuals and more in-detail descriptions of the material classes and applications. If you have any suggestions on how to improve the presentation or contribution workflow, please do not hesitate to contact us!
 
 ## Sources:
-[1] Ehrenhofer Adrian AND Wallmersperger, T. (2025). Soft-Hard Active-Passive Embedded Structures: A review of smart structures with design and modeling guidelines. Accepted by Smart Materials and Structures.
+[1] Ehrenhofer Adrian AND Wallmersperger, T. (2025). Soft-Hard Active-Passive Embedded Structures: A review of smart structures with design and modeling guidelines. Accepted by Smart Materials and Structures. 
+[DOI: 10.1088/1361-665X/adbdb3](https://doi.org/10.1088/1361-665X/adbdb3)
