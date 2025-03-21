@@ -33,6 +33,10 @@ The current work is published under the license Creative Commons Attribution 4.0
 ## Future roadmap:
 We are looking forward to improve this living document by including visuals and more in-detail descriptions of the material classes and applications. If you have any suggestions on how to improve the presentation or contribution workflow, please do not hesitate to contact us!
 
+For a stable and citable version, this source is linked in Zenodo [2]. 
+
 ## Sources:
-[1] Ehrenhofer Adrian AND Wallmersperger, T. (2025). Soft-Hard Active-Passive Embedded Structures: A review of smart structures with design and modeling guidelines. Accepted by Smart Materials and Structures. 
-[DOI: 10.1088/1361-665X/adbdb3](https://doi.org/10.1088/1361-665X/adbdb3)
+[1] Ehrenhofer, A., & Wallmersperger, T. (2025). Soft-Hard Active-Passive Embedded Structures: A review of smart structures with design and modeling guidelines. Smart Materials and Structures, 34(3), 33005. [DOI: 10.1088/1361-665X/adbdb3](https://doi.org/10.1088/1361-665X/adbdb3)
+[2] Ehrenhofer Adrian AND Wallmersperger, T. (2025). SHAPES_Tables: A living document with a collection of sources for active materials and concepts of Soft-Hard Active-Passive Embedded Structures (SHAPES). Zenodo. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15000565.svg)](https://doi.org/10.5281/zenodo.15000565)
+
+
