@@ -7,7 +7,7 @@
 \PassOptionsToPackage{table}{xcolor}
 \usepackage{xcolor}
 
-
+\usepackage{graphicx}
 \usepackage{pdflscape} % For landscape pages
 
 \usepackage{fancyhdr}  % Include the package
@@ -22,20 +22,30 @@
 \fancyhead[R]{}
 \fancyhead[C]{SHAPES\_Tables: A collection of sources for active materials and concepts of Soft-Hard Active-Passive Embedded Structures -- by Adrian Ehrenhofer and Thomas Wallmersperger Current version: \today}
 
+
+\newcommand{\numberminipage}[2]{
+	\begin{minipage}{1\linewidth}
+		\centering
+		\vspace*{0.5em} #1 \\[0.5em]
+		\includegraphics[width=1.2cm]{shapes_tables_images/#2} \vspace*{0.5em}
+\end{minipage}}
+
+
+
 \begin{landscape}
 	\definecolor{myLightGray}{RGB}{231, 231, 231}
 	\begin{table}[htbp]
 		\small
 		\begin{tabular}{|p{3.4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
 			\hline
-			& thermo 
-			& electro 
-			& magneto 
-			& light
-			& chemo
-			& bio
-			& pH
-			& hygro  \\
+			& \numberminipage{-thermo-}{shapes_tables_images_sym_thermo}   
+			& \numberminipage{-electro-}{shapes_tables_images_sym_electro} 
+			& \numberminipage{-magneto-}{shapes_tables_images_sym_magneto} 
+			& \numberminipage{-light-}{shapes_tables_images_sym_lumo}
+			& \numberminipage{-chemo-}{shapes_tables_images_sym_chemo}
+			& \numberminipage{-bio-}{shapes_tables_images_sym_bio}
+			& \numberminipage{-pH-}{shapes_tables_images_sym_ph}
+			& \numberminipage{-hygro-}{shapes_tables_images_sym_hygro}  \\
 			\hline
 			\raggedright Piezoceramics 
 			& \cite{Wang1998} 
@@ -176,27 +186,26 @@
 
 \clearpage
 
+\renewcommand{\numberminipage}[2]{
+	\begin{minipage}{1\linewidth}
+		\centering
+		\vspace*{0.5em} #1 \\[0.5em]
+		\includegraphics[width=1.7cm]{shapes_tables_images/#2} \vspace*{0.1em}
+\end{minipage}}
 
-\begin{landscape}
-	\newcommand{\numberminipage}[2]{
-		\begin{minipage}{\linewidth}
-			\centering
-			#1 \\
-			#2
-	\end{minipage}}
 	
+\begin{landscape}
 	\begin{table}[htbp]
 		\small
-		\begin{tabular}{|p{3.5cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{1.9cm}|p{1.7cm}|}
+		\begin{tabular}{|p{3.5cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|}
 			\hline
-			%& \tiny{Actuator} & \raggedright \tiny{(i) sensor-actuator} & \raggedright \tiny{(ii) connection/breaking} & \raggedright \tiny{(iii) obstruction} & \raggedright \tiny{(iv) structural/surface interaction} & \raggedright \tiny{(v) conductivity} & \tiny{(vi) logic} \\
-			& \numberminipage{(0)}{actuator} 
-			& \numberminipage{(i)}{sens-act} 
-			& \numberminipage{(ii)}{connection} 
-			& \numberminipage{(iii)}{obstruction} 
-			& \numberminipage{(iv)}{structural} 
-			& \numberminipage{(v)}{conductivities} 
-			& \numberminipage{(vi)}{logic}  \\
+			& \numberminipage{(0)}{shapes_tables_images_concepts_actuators}  
+			& \numberminipage{(i)}{shapes_tables_images_concepts_sensor_actuator} 
+			& \numberminipage{(ii)}{shapes_tables_images_concepts_connection} 
+			& \numberminipage{(iii)}{shapes_tables_images_concepts_obstruction} 
+			& \numberminipage{(iv)}{shapes_tables_images_concepts_structural} 
+			& \numberminipage{(v)}{shapes_tables_images_concepts_conductivities} 
+			& \numberminipage{(vi)}{shapes_tables_images_concepts_logic}  \\
 			\hline
 			Piezoceramics 
 			& \cite{Gao2020,Hall2001,Jaffe1958} 
